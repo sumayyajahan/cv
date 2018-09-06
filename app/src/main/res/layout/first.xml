@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back4"
+
+    tools:context=".Start">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_margin="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="register"
+        android:id="@+id/register"
+        android:textColor="#e5003c"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/cv2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="login"
+        android:id="@+id/login"
+        android:textColor="#e5003c"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+</LinearLayout>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="@string/cvapp"
+        android:textColor="#e5003c"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="@string/mycv"
+        android:drawableLeft="@drawable/about2"
+        android:paddingLeft="20dp"
+        android:id="@+id/aboutme"
+        android:textColor="#ffe5ec"
+        android:background="#5c0018"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/owncv"
+        android:id="@+id/createcv"
+        android:drawableLeft="@drawable/cv5"
+        android:paddingLeft="20dp"
+        android:textColor="#ffe5ec"
+        android:background="#210009"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/calculator"
+        android:text="@string/calculator"
+        android:id="@+id/calculator"
+        android:textColor="#ffe5ec"
+        android:background="#0b0003"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+
+
+</LinearLayout>

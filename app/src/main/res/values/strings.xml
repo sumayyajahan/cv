@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CV APP</string>
+    <string name="my">MYSELF</string>
+    <string name="education">EDUCATION</string>
+    <string name="skill">SKILL</string>
+    <string name="experience">EXPERIENCE</string>
+    <string name="family">FAMILY</string>
+    <string name="contact">CONTACT</string>
+    <string name="mycv">DETAILS ABOUT ME</string>
+    <string name="owncv">CREATE YOUR OWN CV</string>
+    <string name="cvapp">CV MAKER APP\n
+        BY\n
+        SUMAYYA JAHAN</string>
+    <string name="name">NAME: SUMAYYA JAHAN</string>
+    <string name="about">ABOUT ME</string>
+    <string name="details">I am hard working person. I am concentrate in my work.I am serious about my work.</string>
+    <string name="indetails">IN DETAILS</string>
+    <string name="calculator">CALCULATOR</string>
+    <string name="anumber">A NUMBER</string>
+    <string name="secondnumber">SECOND NUMBER</string>
+    <string name="thirdnumber">THIRD NUMBER</string>
+    <string name="result">THIRD NUMBER</string>
+    <string name="myname">NAME: SUMAYYA JAHAN</string>
+    <string name="gender">GENDER: FEMALE</string>
+    <string name="blood">BLOOOD GROUP: O+</string>
+    <string name="religion">RELIGION: ISLAM</string>
+    <string name="nationality">COUNTRY: BANGLADESH</string>
+    <string name="father">FATHERS NAME: MD. SOLAIMAN HOSSAIN</string>
+    <string name="mother">MOTHERS NAME: ROJINA HOSSAIN</string>
+    <string name="fathersoccupation">FATHER"S OCCUPATION: SUB DIVISIONAL ENGINEER</string>
+    <string name="brother">BROTHERS NAME: RUHUL AMIN</string>
+    <string name="brothers">BROTHERS DESIGNATION: TEXTILE ENGINEER</string>
+</resources>

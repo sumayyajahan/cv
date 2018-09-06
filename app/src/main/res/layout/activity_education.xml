@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BF35A7"
+    android:padding="10dp"
+    tools:context=".Education">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/education"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        />
+    <TextView
+        android:id="@+id/education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="EDUCATION"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        />
+
+    <TableLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        >
+        <TableRow
+            android:layout_height="500dp"
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#56a142"
+            >
+
+            <TextView
+                android:id="@+id/heading1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:text="Degree"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                />
+
+            <TextView
+                android:id="@+id/heading2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:text="Institute"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="500dp"
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/cell_shape"
+            >
+
+            <TextView
+                android:id="@+id/ssc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:text="S.S.C." />
+
+            <TextView
+                android:id="@+id/sscD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                android:text="P.N.Girls School"
+                android:textSize="25sp"
+                />
+
+        </TableRow>
+        <TableRow
+            android:background="@drawable/cell_shape"
+            android:layout_height="500dp"
+            android:layout_width="300dp"
+            >
+            <TextView
+                android:id="@+id/hsc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:text="H.S.C."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:id="@+id/hscD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                android:text="Rajshahi University
+                School"
+                android:textSize="25sp"
+                />
+
+        </TableRow>
+        <TableRow
+            android:background="@drawable/cell_shape"
+            android:layout_height="500dp"
+            android:layout_width="300dp"
+            >
+            <TextView
+                android:id="@+id/bsc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="B.Sc.Eng."
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/bscD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Mawlana Bhashani Science and
+                Technology University"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
